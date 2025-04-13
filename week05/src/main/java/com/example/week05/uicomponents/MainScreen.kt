@@ -62,7 +62,9 @@ fun MainScreen() {
             ) {
                 DollImage(partStates.toMap())  // toMap()으로 변환해서 사용
             }
-
+            Text(
+                text = "202311381 채민지"
+            )
             LazyVerticalGrid(
                 columns = GridCells.Fixed(2),
                 modifier = Modifier
@@ -91,6 +93,7 @@ fun MainScreen() {
             modifier = Modifier
                 .fillMaxSize()
         ) {
+
             Box(
                 modifier = Modifier
                     .weight(1f)
@@ -99,7 +102,9 @@ fun MainScreen() {
             ) {
                 DollImage(partStates.toMap())  // toMap()으로 변환해서 사용
             }
-
+            Text(
+                text = "202311381 채민지"
+            )
             LazyHorizontalGrid(
                 rows = GridCells.Fixed(5),
                 modifier = Modifier
